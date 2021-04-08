@@ -1,43 +1,49 @@
 {
-    "logs": [
-        {
-            "id": 1,
-            "message": "Changed hard drive on workstation 005",
-            "attention": false,
-            "date": "03-02-2019",
-            "tech": "Sam Smith"
-        },
-        {
-            "id": 2,
-            "message": "Workstation 007 not posting",
-            "attention": true,
-            "date": "03-02-2019",
-            "tech": "John Doe"
-        },        
-        {
-            "id": 3,
-            "message": "Changed memory on workstation 050",
-            "attention": false,
-            "date": "03-02-2019",
-            "tech": "Sara Wilson"
-        }
-
-    ],
-    "techs": [
-        {
-            "id":1,
-            "firstName":"John",
-            "lastName":"Doe"
-        },
-        {
-            "id":2,
-            "firstName":"Sam",
-            "lastName":"Smith"
-        },
-        {
-            "id":3,
-            "firstName":"Sara",
-            "lastName":"Wilson"
-        }
-    ]
+  "logs": [
+    {
+      "id": 1,
+      "message": "fixed",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-04-06T21:26:39.346Z"
+    },
+    {
+      "message": "test test",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2021-04-07T14:27:16.709Z",
+      "id": 2
+    },
+    {
+      "message": "hellow test",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-04-07T14:27:30.837Z",
+      "id": 3
+    },
+    {
+      "message": "test test",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2021-04-07T14:28:11.559Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    }
+  ]
 }
